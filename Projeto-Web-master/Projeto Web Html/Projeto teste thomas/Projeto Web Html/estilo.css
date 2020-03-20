@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+h2{
+    clear: both;
+    margin: 160px auto 30px auto !important;
+    border: 3px solid white;
+    padding: 20px;
+    text-align: center;
+    display: table;
+}
+
+.scrollspySite{
+    position: relative;
+    overflow: auto;
+    height: 300px;
+
+}
+
+div.custom-card{
+    margin: 0px;
+}
+
+
+div.custom-list{
+    margin: 0px;
+}
+
+div.jumbotron{
+    padding: 25px;
+}

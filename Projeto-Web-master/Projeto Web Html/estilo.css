@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+.redes-sociais{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.redes-sociais li{
+    padding-left: 5px;
+    margin: 5px;
+    display: inline;
+    list-style: none;
+}
+.container-custom{
+    background-color: rgb(97, 96, 96);
+}
+.bg-black{
+    background-color: black;
+}
+.custom-list{
+    margin: 0px;
+}
+.custom-sobre{
+    margin: 0px;
+}
