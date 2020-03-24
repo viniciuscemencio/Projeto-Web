@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+
+Theme Name: Projeto
+Author: Vinicius 
+
+*/
+.redes-sociais{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-banner{
+    padding: none;
+    margin: 0px;
+}
+.redes-sociais li{
+    padding-left: 5px;
+    margin: 5px;
+    display: inline;
+    list-style: none;
+}
+.container-custom{
+    background-color: rgb(97, 96, 96);
+}
+
+.bg-black{
+    background-color: black;
+    
+}
+
+a.nav-link{
+    color: white !important; 
+}
+.custom-list{
+    margin: 0px;
+}
+.custom-sobre{
+    margin: 0px;
+}
+
+div h3.h3-custom{
+    margin-top: 10px;
+}
+
