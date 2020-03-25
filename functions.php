@@ -26,6 +26,18 @@ register_nav_menus(
 
 add_theme_support('post-thumbnails');
 
+//Criar campo busca
+register_sidebar(
+    array(
+        'name' => 'Busca',
+        'id' => 'busca',
+        'before_widget' => '<div class="blog-search">',
+        'after_widget' => '</div>',
+        'before_title' => '<h5>',
+        'after_title' => '</h5>',
+    )
+    );
+
 //Criando Banner
 
 function create_post_type(){

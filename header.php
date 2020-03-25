@@ -47,10 +47,8 @@
                         <li><a href=""><img src=<?php echo get_template_directory_uri() . '/img/twitternav.png'?> alt=""></a></li>
                     </ul>
 
-                    <form action="" class="form-inline">
-                        <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar">
-                        <button class="btn btn-default" type="submit"><img src=<?php echo get_template_directory_uri() . '/img/pesquisar.png'?> alt=""></button>
-                    </form>
+                    <?php 
+                    dynamic_sidebar('Busca');?>
 
 
                             
