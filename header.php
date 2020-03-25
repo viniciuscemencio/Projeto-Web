@@ -47,8 +47,7 @@
                         <li><a href=""><img src=<?php echo get_template_directory_uri() . '/img/twitternav.png'?> alt=""></a></li>
                     </ul>
 
-                    <?php 
-                    dynamic_sidebar('Busca');?>
+                    <?php dynamic_sidebar('Busca');?>
 
 
                             
