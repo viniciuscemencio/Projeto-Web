@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-black" role="navigation">
             <div class="container"> 
                 <a class="navbar-brand text-white" href="#">Projeto</a>               
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSite">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSite">        
@@ -33,7 +33,7 @@
                          'depth'             => 2,
                          'container'         => 'div',
                          'container_class'   => 'collapse navbar-collapse',
-                         'container_id'      => 'bs-example-navbar-collapse-1',
+                         'container_id'      => 'navbarSite',
                          'menu_class'        => 'nav navbar-nav',
                          'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                          'walker'            => new WP_Bootstrap_Navwalker(),

@@ -29,6 +29,9 @@ Author: Alysson-Paulo-Thomas-Vinicius
     background-color: black;
     
 }
+.bg-white{
+    background-color: #fff;
+}
 
 a.nav-link{
     color: white !important; 
@@ -42,5 +45,11 @@ a.nav-link{
 
 div h3.h3-custom{
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-form {
+      width: 300px;
+    }
 }
 
