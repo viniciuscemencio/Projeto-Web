@@ -9,7 +9,7 @@
                 <div class="list-group text-center">
                     <a href="" class="list-group-item" list-group-item-action>Masculino</a>
                     <a href="" class="list-group-item" list-group-item-action>Feminino</a>
-                    <a href="" class="list-group-item" list-group-item-action>Sobre Nos</a>
+                    <a href="" class="list-group-item" list-group-item-action>Sobre Nós</a>
                 </div>
             </div>
             <div class="col-sm-4">

@@ -8,6 +8,8 @@ function projeto_title_tag(){
 
 add_action('after_setup_theme', 'projeto_title_tag');
 
+add_theme_support( 'custom-header', $args );                //adicionar editor de cabeçalho no painel do WP
+
 
 
 //Registra a navegação

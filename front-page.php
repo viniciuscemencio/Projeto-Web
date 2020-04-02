@@ -122,25 +122,7 @@
 
         </div>
     </div>
-
-
-    </div>
-    <div class="jumbotron jumbotron-fluid">
-
-        <div class="container">
-            <div class="col-12 text-center">
-                <h1 class="display-4">Sobre Nos</h1>
-                <p class="lead">Mussum Ipsum, cacilds vidis litro abertis</p>
-                <hr>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-
+</div>
     </div>
 
     <?php get_footer();?>   
