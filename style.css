@@ -94,4 +94,15 @@ div h3.h3-custom{
     width: 100%;
 }
 
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    width: 150px;
+  }
+  
+  .button5:hover {
+    background-color: #000000;
+    color: white;
+  }
 
