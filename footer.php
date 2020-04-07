@@ -1,27 +1,34 @@
-    <div class="row mb-5 custom-list">
-            <div class="col-12 mb-3"><hr></div>
-            <div class="col-sm-4">
-                <h3>Projeto</h3>
-                <p>Site projetado para o projeto web TI32</p>
-            </div>
-            <div class="col-sm-4">
-                <h3>Menu</h3>
-                <div class="list-group text-center">
-                    <a href="" class="list-group-item" list-group-item-action>Masculino</a>
-                    <a href="" class="list-group-item" list-group-item-action>Feminino</a>
-                    <a href="" class="list-group-item" list-group-item-action>Sobre Nos</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <h3>Social</h3>
-                <div class="btn-group-vertical btn-block btn-group-lg" role="group">
-                    <a href="" class="btn btn-outline-primary"><img src=<?php echo get_template_directory_uri() . '/img/facebook.png'?>> Facebook</a>
-                    <a href="" class="btn btn-outline-info"><img src=<?php echo get_template_directory_uri() . '/img/twitter.png'?>> Twitter</a>
-                    <a href="" class="btn btn-outline-warning"><img src=<?php echo get_template_directory_uri() . '/img/instagram-esbocado.png'?>> Instagram</a>
-
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+                        <h3>Sobre o projeto</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+                        <h2>Mais...</h2>
+                        <ul>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Carreira</a></li>
+                            <li><a href="#">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 segment-three md-mb-30 sm-mb-30">
+                        <h2>Siga a gente!</h2>
+                        <p>Siga a gente pelas redes sociais</p>
+                        <a href="#"><i class="fab fa-facebook btn-outline-primary"></i></a>
+                        <a href="#"><i class="fab fa-twitter btn-outline-info"></i></a>
+                        <a href="#"><i class="fab fa-linkedin btn-outline-primary"></i></a>
+                        <a href="#"><i class="fab fa-pinterest btn-outline-darger"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
+        <p class="footer-bottom-text">Todos os direitos reservados by &copy; Projeto 2020</p>
+    </footer>
 
 
         

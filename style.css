@@ -44,3 +44,76 @@ div h3.h3-custom{
     margin-top: 10px;
 }
 
+p{
+    color: #999;
+    line-height: 25px;
+}
+
+h2,h3{
+    color: #fff;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.footer-top{
+    background: #111;
+    padding: 80px 0;
+}
+
+.segment-one h3{
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+.segment-two h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li{
+    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+
+.segment-three h2{
+    color: #fff;
+   text-transform: uppercase;
+}
+
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a li{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
