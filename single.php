@@ -15,9 +15,10 @@
             <div class="col-sm-6">
 
                 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-                
-                <?php the_post_thumbnail('largest', array('class' => 'img-fluid rounded img-custom border')); ?>
-
+                <div class="item">
+                    <?php the_post_thumbnail('largest', array('class' => 'img-fluid rounded img-custom border')); ?>
+                    <div class="item-overlay top"></div>
+                </div>
                 
                     
             </div>

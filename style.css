@@ -36,6 +36,11 @@ Author: Alysson-Paulo-Thomas-Vinicius
 a.nav-link{
     color: white !important; 
 }
+
+a.nav-link:hover{
+    color: grey !important;
+}
+
 .custom-list{
     margin: 0px;
 }
@@ -60,18 +65,18 @@ div h3.h3-custom{
     float: left;
     width: 50%;
     margin-bottom: 20px;
-  }
+}
   
-  .form-item-50 input {
+.form-item-50 input {
     width: 100%;
     float: left;
-  }
+}
   
-  .form-item-50.item-esquerda {
+.form-item-50.item-esquerda {
     padding-right: 15px;
-  }
+}
   
-  @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .form-item-50 {
       width: 100%
     }
@@ -79,18 +84,18 @@ div h3.h3-custom{
     .form-item-50.item-esquerda {
       padding-right: 0;
     }
-  }
+}
   
-  .form-item-100 {
+.form-item-100 {
     width: 100%;
     margin-bottom: 20px;
-  }
+}
   
-  .form-item-100 input {
+.form-item-100 input {
     width: 100%;
-  }
+}
   
-  .form-item-100 textarea {
+.form-item-100 textarea {
     width: 100%;
 }
 
@@ -104,5 +109,34 @@ div h3.h3-custom{
   .button5:hover {
     background-color: #000000;
     color: white;
-  }
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    position: relative;
+
+    
+    margin: 2%;
+    overflow: hidden;
+   
+}
+.item img {
+    max-width: 100%;
+    
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.item:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
