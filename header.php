@@ -23,8 +23,8 @@
        
         <nav class="navbar navbar-expand-lg navbar-light bg-black" role="navigation">
             <div class="container"> 
-                <a class="navbar-brand text-white" href="#">Projeto</a>               
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <a class="navbar-brand text-white" href="#"><img src=<?php echo get_template_directory_uri() . '/img/seila.png'?> alt=""></a>               
+                <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSite">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSite">        
@@ -35,7 +35,7 @@
                          'depth'             => 2,
                          'container'         => 'div',
                          'container_class'   => 'collapse navbar-collapse',
-                         'container_id'      => 'bs-example-navbar-collapse-1',
+                         'container_id'      => 'navbarSite',
                          'menu_class'        => 'nav navbar-nav',
                          'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                          'walker'            => new WP_Bootstrap_Navwalker(),
@@ -44,9 +44,9 @@
 
                     
                     <ul class="redes-sociais">
-                        <li><a href=""><img src=<?php echo get_template_directory_uri() . '/img/facenav.png'?> alt=""></a></li>
-                        <li><a href=""><img src=<?php echo get_template_directory_uri() . '/img/instanav.png'?> alt=""></a></li>
-                        <li><a href=""><img src=<?php echo get_template_directory_uri() . '/img/twitternav.png'?> alt=""></a></li>
+                        <li><a href="https://www.facebook.com/" target="blank"><img src=<?php echo get_template_directory_uri() . '/img/facenav.png'?> alt=""></a></li>
+                        <li><a href="https://www.instagram.com/?hl=pt-br" target="blank"><img src=<?php echo get_template_directory_uri() . '/img/instanav.png'?> alt=""></a></li>
+                        <li><a href="https://twitter.com/login?lang=pt" target="blank"><img src=<?php echo get_template_directory_uri() . '/img/twitternav.png'?> alt=""></a></li>
                     </ul>
 
                     <?php dynamic_sidebar('Busca');?>

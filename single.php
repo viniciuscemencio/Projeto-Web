@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center my-5">
-                    <h1 class="display-4">Seja Bem-Vindo !</h1>
+                    <h1 class="display-4">SEJA BEM-VINDO !</h1>
                     
                 </div>
             </div>
@@ -15,9 +15,10 @@
             <div class="col-sm-6">
 
                 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-                
-                <?php the_post_thumbnail('largest', array('class' => 'img-fluid rounded img-custom border')); ?>
-
+                <div class="item">
+                    <?php the_post_thumbnail('largest', array('class' => 'img-fluid rounded img-custom border')); ?>
+                    <div class="item-overlay top"></div>
+                </div>
                 
                     
             </div>

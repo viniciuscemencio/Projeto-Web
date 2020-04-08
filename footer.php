@@ -24,6 +24,7 @@
                         <a href="#"><i class="fab fa-linkedin btn-outline-primary"></i></a>
                         <a href="#"><i class="fab fa-pinterest btn-outline-darger"></i></a>
                     </div>
+
                 </div>
             </div>
         </div>

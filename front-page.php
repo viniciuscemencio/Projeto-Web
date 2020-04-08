@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center my-5">
-                <h1 class="display-4">Sejam Bem-Vindos !</h1>
+                <h1 class="display-4">SEJA BEM-VINDO !</h1>
                 
             </div>
         </div>
@@ -13,7 +13,7 @@
 
         <div class="container">
             <div class="col-12 text-center">
-                <h1 class="display-4">Destaques Masculino</h1>
+                <h1 class="display-4">DESTAQUES MASCULINOS</h1>
                 <p class="lead">Mussum Ipsum, cacilds vidis litro abertis</p>
                 <hr>
 
@@ -44,7 +44,10 @@
                     
                 <div class="card">
                     <a href="<?php the_permalink(); ?>">
-                    <?php the_post_thumbnail('smallest', array('class' => 'img-fluid rounded ')) ?>
+                    <div  class="item">
+                        <?php the_post_thumbnail('smallest', array('class' => 'img-fluid rounded ')) ?>
+                        <div class="item-overlay top"></div>
+                    </div>
                     </a>
                     <div class="card-body">
                         <h4 class="card-title"><?php the_title() ?></h4>
@@ -70,7 +73,7 @@
 
         <div class="container">
             <div class="col-12 text-center">
-                <h1 class="display-4">Destaques Feminino</h1>
+                <h1 class="display-4">DESTAQUES FEMININOS</h1>
                 <p class="lead">Mussum Ipsum, cacilds vidis litro abertis</p>
                 <hr>
 
@@ -102,7 +105,10 @@
                     
                 <div class="card">
                     <a href="<?php the_permalink(); ?>">
-                    <?php the_post_thumbnail('smallest', array('class' => 'img-fluid rounded ')) ?>
+                    <div  class="item">
+                        <?php the_post_thumbnail('smallest', array('class' => 'img-fluid rounded ')) ?>
+                        <div class="item-overlay top"></div>
+                    </div>
                     </a>
                     <div class="card-body">
                         <h4 class="card-title"><?php the_title() ?></h4>
@@ -122,25 +128,7 @@
 
         </div>
     </div>
-
-
-    </div>
-    <div class="jumbotron jumbotron-fluid">
-
-        <div class="container">
-            <div class="col-12 text-center">
-                <h1 class="display-4">Sobre Nos</h1>
-                <p class="lead">Mussum Ipsum, cacilds vidis litro abertis</p>
-                <hr>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-
+</div>
     </div>
 
     <?php get_footer();?>   

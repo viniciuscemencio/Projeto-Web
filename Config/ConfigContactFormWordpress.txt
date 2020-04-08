@@ -1,0 +1,103 @@
+Formulário
+
+--------------------------------------------------------------
+
+<div>
+    <b>Campo obrigatório *</b>
+    <div class="form-item-50 item-esquerda">
+        <b>Nome*</b>
+        [text* nome placeholder "Nome"]
+    </div>
+
+    <div class="form-item-50">
+        <b>E-mail*</b>
+        [email* email placeholder "E-mail"]
+    </div>
+
+   <div class="clearfix"></div>
+
+   <div class="form-item-50 item-esquerda">
+        <b>Telefone*</b>
+        [tel* telefone placeholder "Telefone"]
+    </div>
+
+<div class="clearfix"></div>
+
+    <div class="form-item-100">
+        <b>Assunto*</b>
+        [text* assunto placeholder "Assunto"]
+    </div>
+
+    <div class="form-item-100">
+        <b>Mensagem*</b>
+        [textarea* mensagem placeholder "Mensagem"]
+    </div>
+
+[submit class:button class:button5 "Enviar"]
+
+</div>
+
+------------------------------------------------------------
+
+mail
+
+-----------------------------------------------------------
+para - projeto.webti32@gmail.com
+
+de - Projeto  Web <projeto.webti32@gmail.com>
+
+Assunto - Projeto  Web - "[assunto]"
+
+Additional headers - Reply-To: [email]
+
+------------------------------------------------------------
+Message body 
+
+-------------------------------------------------------------
+
+Dados:
+
+Nome: [nome] 
+Email: [email]
+telefone: [telefone]
+
+Assunto: [assunto]
+
+Mensagem:
+[mensagem]
+
+-------------------------------------------------------------------
+Este e-mail foi enviado de um formulário de contato em Projeto  Web (http://localhost/wordpress)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
