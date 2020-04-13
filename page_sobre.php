@@ -31,7 +31,8 @@
            			?> 
 
 							<?php 
-							// Se houver algum post
+							// Se houver  algum post
+							//teste
 							if( $my_query-> have_posts() ):
 							// Enquanto houver posts, mostre-os pra gente
 							while( $my_query-> have_posts() ): $my_query-> the_post();
