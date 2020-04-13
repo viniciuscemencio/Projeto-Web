@@ -11,18 +11,18 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
                         <h2>Mais...</h2>
                         <ul>
-                            <li><a href="#">Contato</a></li>
-                            <li><a href="#">Carreira</a></li>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Feminino</a></li>
+                            <li><a href="#">Masculino</a></li>
+                            <li><a href="#">Sobre Nós</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 segment-three md-mb-30 sm-mb-30">
+                    <div class="col-md-4 col-sm-6 col-xs-12  md-mb-30 sm-mb-30">
                         <h2>Siga a gente!</h2>
                         <p>Siga a gente pelas redes sociais</p>
-                        <a href="#"><i class="fab fa-facebook btn-outline-primary"></i></a>
-                        <a href="#"><i class="fab fa-twitter btn-outline-info"></i></a>
-                        <a href="#"><i class="fab fa-linkedin btn-outline-primary"></i></a>
-                        <a href="#"><i class="fab fa-pinterest btn-outline-darger"></i></a>
+                        <a href="https://www.facebook.com/" target="blank"><img src=<?php echo get_template_directory_uri() . '/img/fa2.png'?> alt=""><i class="btn-outline-primary"></i></a>
+                        <a href="https://www.instagram.com/?hl=pt-br" target="blank"><img src=<?php echo get_template_directory_uri() . '/img/ins2.png'?> alt=""><i class="btn-outline-info"></i></a>
+                        <a href="https://twitter.com/login?lang=pt" target="blank"><img src=<?php echo get_template_directory_uri() . '/img/tw2.png'?> alt=""><i class="btn-outline-primary"></i></a>
+                        
                     </div>
 
                 </div>
