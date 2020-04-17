@@ -1,6 +1,8 @@
 <?php 
 /* Template Name: Template Sobre */
 ?>
+<?php get_header(); ?>
+
 	<section class="area-sobre">
 		<div class="jumbotron my-4 ">
 			<h3 class="h3 text-center display-4 "><?php the_title() ?></h3>
