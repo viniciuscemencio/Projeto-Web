@@ -5,6 +5,9 @@ Theme Name: Projeto-Web
 Author: Alysson-Paulo-Thomas-Vinicius
 
 */
+*{
+    box-sizing: border-box;
+}
 .redes-sociais{
     margin: 0;
     display: flex;
@@ -126,11 +129,7 @@ h2{
     line-height: 75px;
 }
 
-@media only screen and (max-width: 600px) {
-    .search-form {
-      width: 300px;
-    }
-}
+
 .template-sobre{
     text-align: center;
 }
@@ -148,16 +147,6 @@ h2{
   
 .form-item-50.item-esquerda {
     padding-right: 15px;
-}
-  
-@media only screen and (max-width: 767px) {
-    .form-item-50 {
-      width: 100%
-    }
-  
-    .form-item-50.item-esquerda {
-      padding-right: 0;
-    }
 }
   
 .form-item-100 {
@@ -216,4 +205,20 @@ h2{
 
 .footer-itens{
     align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .form-item-50 {
+      width: 100%
+    }
+  
+    .form-item-50.item-esquerda {
+      padding-right: 0;
+    }
+    .search-form {
+        width: 75%;
+    }
+    .display-4{
+        font-size: 2.5rem !important;
+    }
 }

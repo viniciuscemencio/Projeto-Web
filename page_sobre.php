@@ -5,50 +5,68 @@
 
 <?php get_header();  ?>
 
-					<section class="area-sobre">
-						<div class="container">
-							<div class="row">
-								<?php
+	<section class="area-sobre">
+		<div class="jumbotron my-4 ">
+			<h3 class="h3 text-center display-4 "><?php the_title() ?></h3>
+		</div>
+		<div class="container">
+			<div class="row">
+				<?php
+				
+				$featured = new WP_Query('post_type=post&posts_per_page=1&category_name=destaqueSobre' );
+				if( $featured->have_posts() ):
+					while( $featured->have_posts() ): $featured->the_post();
+				?>
+				<div class=" col-12 mb-5 mt-2">
+					<?php get_template_part( 'template-parts/content', 'destaque' ); ?>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="jumbotron ">
+		<h3 class="h3 text-center display-4 ">Nossas Ideias!</h3>
+	</div>		
+
 								
-								$featured = new WP_Query('post_type=post&posts_per_page=1&category_name=destaqueSobre' );
-								if( $featured->have_posts() ):
-									while( $featured->have_posts() ): $featured->the_post();
-								?>
-								<div class=" col-12 mb-5 mt-2">
-									<?php get_template_part( 'template-parts/content', 'destaque' ); ?>
-								</div>
-										
-								<?php
-									endwhile;
-									wp_reset_postdata();
-								endif;
-								// Segundo Loop
-								$args = array(
-									'post_type' => 'post',
-									'posts_per_page' => 4,
-									'category_name' =>'sobre',
-									
-								);
-								$secondary = new WP_Query( $args );
-								if( $secondary->have_posts() ):
-									while( $secondary->have_posts() ): $secondary->the_post();
-								?>
-								<div class="px-4 col-md-3">
-									<?php get_template_part( 'template-parts/content', 'sobre' ); ?>
-								</div>
-								<?php
-									endwhile;
-									wp_reset_postdata();
-								endif;									
-								?>
-							</div>
-						</div>
-					</section>
+
+
+
+	<section class="area-sobre">
+		<div class="container">
+			<div class="row">
+
+			<?php
+				endwhile;
+				wp_reset_postdata();
+			endif;
+			// Segundo Loop
+			$args = array(
+				'post_type' => 'post',
+				'posts_per_page' => 4,
+				'category_name' =>'sobre',
+				
+			);
+			$secondary = new WP_Query( $args );
+			if( $secondary->have_posts() ):
+				while( $secondary->have_posts() ): $secondary->the_post();
+			?>
+			<div class="px-4 col-md-3">
+				<?php get_template_part( 'template-parts/content', 'sobre' ); ?>
+			</div>
+			<?php
+				endwhile;
+				wp_reset_postdata();
+			endif;									
+			?>
+		</div>
+	</div>
+</section>
 
 					<hr class="my-5">
 
 
-					<div class="jumbotron my-4 ">
+					<div class="jumbotron my-4 col-12">
 						<h3 class="h3 text-center display-4 ">Desenvolvimentos</h3>
 					</div>
 

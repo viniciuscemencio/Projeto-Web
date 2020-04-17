@@ -16,7 +16,7 @@
                             <li> <strong><a href="#">Sobre Nós</a></strong></li>
                         </ul>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12  md-mb-30 sm-mb-30 text-center">
+                    <div class="col-md-4 col-sm-6 col-xs-12 mt-5 md-mb-30 sm-mb-30 text-center">
                         <h2>Siga a gente!</h2>
                         <p>Siga a gente pelas redes sociais!</p>
                         <a href="https://www.facebook.com/" target="blank"><img src=<?php echo get_template_directory_uri() . '/img/fa2.png'?> alt=""><i class="btn-outline-primary"></i></a>
